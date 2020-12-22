@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Simple Local Storage</title>
+
+    <!-- CSS+JS link -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<h1>Simple Local Storage</h1>
+
+<div id="info-wrapper">
+    <p>1. Write something <br> <br> Press Save to save your text to
+        local storage</p>
+    <p>2. Refresh page (cmd+R on mac)<br><br> You'll see your text disappear. (It's still in
+        the local storage though.</p>
+    <p>3. Press Get Text <br> <br> This grabs it from the local storage and puts
+        it back again. </p>
+    <p>4. Clear <br><br> This clears local storage. </p>
+</div>
+
+
+
+<div id="user-text" contenteditable="true"></div>
+
+<div id="btn-wrapper">
+    <button id="save-btn">Save</button>
+    <button id="get-btn">Get Text</button>
+    <button id="clear-btn">Clear</button>
+</div>
+<button id="refresh-btn">Refresh</button>
+
+<p id="info"> <i>You can store 1 save at a time. Pressing save multiple times overwrites. </i></p>
+
+</body>
+
+</html>

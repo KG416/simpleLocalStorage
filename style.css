@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 172, 172), rgb(255, 255, 169));
+}
+h1{
+  margin-top: 20px;
+  font-size: 70px;
+  margin: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+#info-wrapper{
+  display: flex;
+  max-width: 70%;
+  justify-content: space-around;
+}
+p{
+  font-weight: bold;
+  margin: 20px;
+  max-width: 30%;
+  background: rgb(255, 255, 224);
+  border-radius: 10px;
+  padding: 20px;
+}
+#user-text{
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 100px;
+  width: 500px;
+  min-height: 20%;
+  margin: 10px auto;
+  outline: none;
+  background:#f4f4f4;
+  padding: 5px;
+}
+/* --------------------BUTTONS-------------------- */
+button{
+  font-weight: bolder;
+  padding: 22px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+#save-btn{
+background: rgb(171, 255, 98);
+}
+#get-btn{
+background: rgb(166, 206, 255);
+}
+#clear-btn{
+background: rgb(255, 166, 166);
+}
+#refresh-btn{
+background: rgb(255, 192, 55);
+}
+/*-----HOVERS----- */
+button:hover{
+  cursor: pointer;
+}
+#save-btn:hover{
+background: rgb(119, 255, 1);
+box-shadow: 1px 1px 1px rgb(213, 213, 213);
+}
+#get-btn:hover{
+background: rgb(58, 146, 255);
+box-shadow: 1px 1px 1px rgb(150, 150, 150);
+}
+#clear-btn:hover{
+background: rgb(255, 72, 72);
+box-shadow: 1px 1px 1px rgb(150, 150, 150);
+}
+#refresh-btn:hover{
+background: rgb(255, 174, 0);
+box-shadow: 1px 1px 1px rgb(150, 150, 150);
+}
+/* --------------------INFO (bottom)-------------------- */
+#info{
+  background: none;
+  text-align: center;
+}
+
+/* --------------------MEDIA QUERIES-------------------- */
+
+@media screen and (max-width: 992px) {
+  h1{
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+}
+  #info-wrapper{
+  max-width: 100%;
+}
+}
+
+@media screen and (max-width: 800px) {
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+}
+  #info-wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: none;
+}
+p{
+  margin: 5px;
+  min-width: 95%;
+}
+#user-text{
+  min-height: 20%;
+  max-width: 95%;
+}
+button{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+}
