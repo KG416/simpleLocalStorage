@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-![Simple Local Storage logo](img/simple-lc-logo1-small.jpg)
-=======
-![Simple Local Storage logo](img/simple-lc-logo-small.jpg)
->>>>>>> d0b3559af3f20007bc3f6c69f21343abbbf14c2b
+![Simple Local Storage logo](img/simple-lc-logo1-smaller.jpg)
 
 *A simple site that demonstrates the basics of Local Storage.*
 
