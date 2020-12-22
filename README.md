@@ -1,4 +1,4 @@
-![Simple Local Storage logo](img/simple-lc-logo1-smaller.jpg)
+![Simple Local Storage logo](img/simple-lc-logo-560.jpg)
 
 *A simple site that demonstrates the basics of Local Storage.*
 
