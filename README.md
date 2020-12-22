@@ -9,7 +9,7 @@
 ### Motivation
 
 I made this when I was learining about Local Storage. Partially for my own sake but hopefully someone
-else can benefit from this the same way I do when I have to remind myself of how Local Storage works.
+else can benefit from this the same way I did when I had to remind myself of how Local Storage works.
 
 ### Features
 
