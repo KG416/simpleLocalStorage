@@ -2,7 +2,7 @@
 
 *A simple site that demonstrates the basics of Local Storage.*
 
-[Link to website](simplelc.surge.sh)
+[Link to website](http://simplelc.surge.sh/)
 
 ### Created by
 
