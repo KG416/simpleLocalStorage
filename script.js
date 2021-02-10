@@ -23,10 +23,12 @@ getBtn.addEventListener("click", () => {
     return userText.innerHTML = localStorage.getItem("userText");
 })
 
-//----------CLEAR LOCAL STORAGE----------//
+//----------CLEAR LOCAL STORAGE + REFRESH----------//
 clearBtn.addEventListener("click", () => {
+    //Clear
     localStorage.clear();
-    document.location.reload(); 
+    //Refresh
+    document.location.reload();
 })
 
 //----------REFRESH----------//

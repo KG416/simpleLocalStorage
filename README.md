@@ -2,14 +2,15 @@
 
 *A simple site that demonstrates the basics of Local Storage.*
 
+[Link to website](simplelc.surge.sh)
+
 ### Created by
 
 - Karl Gunnarsson (<https://github.com/KG416>)
 
 ### Motivation
 
-I made this when I was learining about Local Storage. Initially just for my own sake but hopefully someone
-else can benefit from this the same way I did when I had to remind myself of how Local Storage works.
+I made this when I was learining about Local Storage. Initially just for my myself but if someone else can benefit from this then that's great!
 
 ### Features
 
